@@ -1,0 +1,14 @@
+
+
+
+#LED 
+
+set_io --warn-no-port led[0] 39
+set_io --warn-no-port led[1] 40
+
+
+#input 
+
+set_io -pullup yes pmod[0] 28
+set_io -pullup yes pmod[1] 38
+set_io -pullup yes pmod[2] 42 
